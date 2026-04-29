@@ -29,8 +29,7 @@ import { LLMService } from '../hooks/useChat';
  *
  * Remember to start Ollama with:  OLLAMA_HOST=0.0.0.0:11434 ollama serve
  */
-// export const OLLAMA_BASE_URL = 'http://10.0.2.2:11434';
-export const OLLAMA_BASE_URL = 'http://192.168.29.66:11434';
+export const OLLAMA_BASE_URL = 'http://10.0.2.2:11434';
 
 /**
  * Model to use — qwen3.5:2b (Q4_K_M, LoRA+QLoRA, Score: 83/100)
